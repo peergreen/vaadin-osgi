@@ -1,0 +1,9 @@
+Import-Package *;resolution:=optional
+
+Embed-Dependency *;scope=runtime;inline=true
+
+Export-Package com.vaadin.*
+
+Private-Package com.peergreen.example.vaadin.*,\
+                org.json.*,\
+                VAADIN.*

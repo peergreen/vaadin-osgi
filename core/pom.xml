@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>vaadin-osgi</artifactId>
+    <groupId>com.peergreen.example.vaadin</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>vaadin-osgi-core</artifactId>
+  <name>Modular Vaadin application with OSGi Core</name>
+  <packaging>bundle</packaging>
+
+  <dependencies>
+    <!-- Runtime dependencies -->
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-client-compiled</artifactId>
+      <version>7.1.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-push</artifactId>
+      <version>7.1.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-themes</artifactId>
+      <version>7.1.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin.external.atmosphere</groupId>
+      <artifactId>atmosphere-runtime</artifactId>
+      <version>1.0.14.vaadin4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin.external.slf4j</groupId>
+      <artifactId>vaadin-slf4j-jdk14</artifactId>
+      <version>1.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.6.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+</project>
